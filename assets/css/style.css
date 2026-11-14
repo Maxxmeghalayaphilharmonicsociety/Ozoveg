@@ -22,13 +22,13 @@ p{margin:0 0 1em}
 /* Video */
 .video-container {
   position: relative;
-  width: 100%;
-  max-width: 900px;
-  margin: 30px auto;
-  padding-bottom: 56.25%; /* Forces the 16:9 aspect ratio */
+  width: 100;
+  max-width: 900;
+  margin: 30 auto;
+  padding-bottom: 25; /* Forces the 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 8;
 }
 
 .video-container iframe {

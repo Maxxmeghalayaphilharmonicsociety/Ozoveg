@@ -21,14 +21,15 @@ p{margin:0 0 1em}
 .grad{background:linear-gradient(90deg,var(--navy),var(--blue) 45%,var(--green));-webkit-background-clip:text;background-clip:text;color:transparent}
 /* Video */
 .video-container {
+ .video-container {
   position: relative;
-  width: 100;
-  max-width: 900;
-  margin: 30 auto;
-  padding-bottom: 25; /* Forces the 16:9 aspect ratio */
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding-bottom: 10%; /* Forces the 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
-  border-radius: 8;
+  border-radius: 8px;
 }
 
 .video-container iframe {

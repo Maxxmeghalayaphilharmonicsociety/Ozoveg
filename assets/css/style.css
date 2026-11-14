@@ -20,7 +20,6 @@ p{margin:0 0 1em}
 .lead{font-size:1.18rem;color:var(--muted);max-width:62ch}
 .grad{background:linear-gradient(90deg,var(--navy),var(--blue) 45%,var(--green));-webkit-background-clip:text;background-clip:text;color:transparent}
 /* Video */
-.video-container {
  .video-container {
   position: relative;
   width: 100%;

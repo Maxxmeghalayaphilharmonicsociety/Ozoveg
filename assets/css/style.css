@@ -23,12 +23,12 @@ p{margin:0 0 1em}
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 800px; /* Adjust this max-width to fit your page layout */
-  margin: 20px auto; /* Centers the video horizontally */
-  padding-bottom: 56.25%; /* This forces a 16:9 aspect ratio (height is 56.25% of width) */
+  max-width: 900px;
+  margin: 30px auto;
+  padding-bottom: 56.25%; /* Forces a 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
-  border-radius: 8px; /* Optional: adds smooth rounded corners */
+  border-radius: 8px;
 }
 
 .video-container iframe {
